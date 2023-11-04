@@ -1,0 +1,13 @@
+
+.list {
+  max-height:calc(90vh - 150px);
+  overflow-y: scroll;
+
+  .star {
+    color: #C7C7C7
+  }
+
+  .star.active-star {
+    color: #962D6B
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "TABS": {
+    "COMMANDS": "الاوامر",
+    "WALLET": "المحفظة",
+    "CALCULATOR": "حاسبتي",
+    "ACCOUNT_STATEMENT": "كشف الحساب",
+    "ELECTRONIC_TRANSFERS": "التحويلات الالكترونية",
+    "PAYMENT_INFORMATION": "معلومات السداد",
+    "NOTIFICATIONS": "التنبيهات",
+    "ELECTRONIC_SIGNATURE": "التوقيع الالكتروني"
+  },
+  "HEADER": {
+    "QR_TITLE": "الدخول الذكي",
+    "LOGIN_TITLE": "دخول",
+    "HOME_TITLE": "الرئيسية",
+    "CHANGE_PASSWORD": "تغيير كلمة المرور",
+    "LOGOUT": "خروج"
+  },
+  "DASHBOARD": {
+    "COMPANY": "الشركة",
+    "DISPLAY_SHARES": "اسهم العرض",
+    "BID_PRICE": "سعر العرض",
+    "CURRENT_PRICE": "سعر الحالي",
+    "ASK_PRICE": "سعر الطلب",
+    "BID_SHARES": "اسهم الطلب",
+    "CHANGE": "التغير",
+    "TOTAL_SHARES": "اجمالي الاسهم",
+    "REAL": "ريال"
+  },
+  "USER_MARKET_INFO": {
+      "CASH": "النقد",
+      "PORTFOLIO": "المحفظة",
+      "ASSETS": "الموجودات",
+      "BUY_ORDERS_VALUE": "قيمة الأوامر الشرائية",
+      "AVAILABLE_MARGIN": "الهامش المتاح",
+      "LIABILITY": "المديونية",
+      "CHART_TYPE": "رسم بياني",
+      "BUYING_POWER": "القدرة الشرائية"
+    }
+}

@@ -1,0 +1,35 @@
+html[dir="rtl"]{
+  .dashboard {
+    .company-title {
+      text-align: right;
+    }
+  }
+}
+
+.dashboard{
+  .card-title,.company-title{
+    color:#8E9BAF;
+  }
+  .company-title{
+    text-align: left;
+  }
+  .view-price{
+    background: #F9EAD4;
+    color:#000;
+  }
+
+  .current-price{
+    background: #91C8A5;
+    color:#000;
+  }
+
+  .market-price{
+    background: #D2E9F7;
+    color:#000;
+  }
+
+  .value{
+    font-size:18px;
+    font-weight: bold;
+  }
+}

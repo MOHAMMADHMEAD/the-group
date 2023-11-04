@@ -1,0 +1,73 @@
+@import "../../assets/variable";
+
+.list{
+    max-height:calc(90vh - 130px);
+    overflow-y: scroll;
+}
+.tab{
+    background: transparent;
+    color: #7D8CA3;
+    border-radius: 0;
+    cursor: pointer;
+    font-size: 14px;
+
+    &.active{
+        border-bottom: 3px solid;
+        color:$navy;
+        font-weight: bold;
+
+        .fa{
+            color:#75859D
+        }
+    }
+}
+
+table {
+    tr {
+        &.price-up {
+            td{
+                background: #FEF2E4;
+                color: #000;
+                &:last-child{
+                    background: #F9D8A5;
+                }
+            }
+        }
+
+        &.price-down {
+            td{
+                background: #E4F2FB;
+                color: #000;
+                &:last-child{
+                    background: #8AC5EF;
+                }
+            }
+        }
+
+        &.price-equal {
+            td{
+                background: #91C8A5;
+                color: #000;
+                &:last-child{
+                    background: #91C8A5;
+                }
+            }
+        }
+    }
+    thead{
+        th{
+            font-size: 14px;
+            color:#404040 !important;
+        }
+    }
+    tbody{
+        td{
+            border-right: 1px solid #fff;
+            font-size: 14px;
+        }
+    }
+}
+
+.tab-pane{
+    max-height: 100vh;
+}

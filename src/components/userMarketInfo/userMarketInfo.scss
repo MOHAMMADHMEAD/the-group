@@ -1,0 +1,35 @@
+.info{
+  .text{
+    color:#373738
+  }
+
+  .value{
+    font-size: 14px;
+  }
+
+  .value-text,.tick-line,.tick-value{
+    display: none;
+  }
+
+  .chart-card{
+      position: relative;
+    .chart{
+      position: absolute;
+      bottom: 2px;
+    }
+  }
+
+  .chart-size{
+    width: 150px;
+  }
+}
+
+@media (max-width: 800px) {
+  .chart-card{
+    .chart{
+      position: relative !important;
+      bottom: 2px;
+    }
+  }
+
+}

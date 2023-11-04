@@ -1,0 +1,50 @@
+html[dir="rtl"]{
+    .fa-sign-out,.fa-sign-in{
+      transform: rotate(180deg);
+    }
+
+  .nav-item{
+    &:not(:last-child) {
+      .nav-link {
+        &:before {
+          left: 0;
+          right: unset;
+        }
+      }
+    }
+  }
+}
+
+
+.login-btn{
+  background: linear-gradient(to bottom, #77e8b0 0%, #61d098 44.8%, #5bba8b 100%);
+  color:#fff
+}
+
+.navbar-nav{
+  .nav-item{
+    &:not(:last-child) {
+      .nav-link {
+        position: relative;
+
+        &:before {
+          content: '';
+          border-right: 1px solid #8B7599;
+          height: 15px;
+          top: 35%;
+          position: absolute;
+          right: 0;
+        }
+      }
+    }
+
+  }
+}
+
+@media (max-width: 800px) {
+  .nav-link {
+    &:before {
+      content: none !important;
+    }
+  }
+}

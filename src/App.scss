@@ -1,0 +1,45 @@
+@import 'bootstrap/dist/css/bootstrap.rtl.css';
+@import 'bootstrap/dist/css/bootstrap.css';
+@import 'font-awesome/css/font-awesome.min.css';
+
+html,body{
+  background: #F3F4F6;
+}
+
+.text-gray{
+  color:#737372
+}
+
+.text-blue{
+  color:#6575A2
+}
+
+.bg-p{
+  background: linear-gradient(to right, #772D62, #63406F);
+}
+
+
+
+.navy{
+  color:#772D62
+}
+
+.half-border {
+  position: relative;
+  &:before{
+    content: '';
+    border-right: 1px solid #e7e7e7;
+    height: 40px;
+    top: 30px;
+    position: absolute;
+    right: 0;
+    width: 10px;
+  }
+}
+
+@media (max-width: 800px) {
+  //.d-flex{
+  //  flex-direction: column;
+  //}
+
+}

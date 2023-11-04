@@ -1,0 +1,76 @@
+@import "../../assets/variable";
+
+#content{
+  .nav-item{
+    .nav-link{
+      color:#79879D;
+      border: 1px solid #DCDBDC;
+      font-size: 14px;
+    cursor: pointer;
+      &.active{
+        background: $navy ;
+        color:#fff;
+      }
+    }
+  }
+}
+
+.action-btn {
+  width: 200px;
+
+  &.buy-button {
+    background: #7FC6F0;
+    color: #2E6C91;
+    font-weight: bold;
+
+    &:hover{
+      background: rgba(127, 198, 240, 0.85);
+    }
+  }
+
+  &.sell-button{
+    background: #FACF95;
+    color:#884E0C;
+    font-weight: bold;
+    &:hover{
+      background: rgba(250, 207, 149, 0.82);
+    }
+  }
+}
+
+.tab-content{
+  border: 1px solid #e7e7e7e7;
+  min-height: calc(100vh - 423px);
+}
+
+
+.login-info{
+  border: 1px solid #fff;
+  width: 100px;
+  border-radius: 50%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+}
+
+html[dir="rtl"]{
+  .action-btn {
+    .fa{
+      transform: rotate(180deg);
+    }
+  }
+}
+
+
+
+@media (max-width: 800px) {
+  .action-container {
+    flex-direction: column !important;
+    align-items: center;
+    .action-btn {
+      width: 150px;
+    }
+  }
+}

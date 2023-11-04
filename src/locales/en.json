@@ -1,0 +1,40 @@
+{
+  "TABS": {
+    "COMMANDS": "Commands",
+    "WALLET": "Wallet",
+    "CALCULATOR": "Calculator",
+    "ACCOUNT_STATEMENT": "Account Statement",
+    "ELECTRONIC_TRANSFERS": "Electronic Transfers",
+    "PAYMENT_INFORMATION": "Payment Information",
+    "NOTIFICATIONS": "Notifications",
+    "ELECTRONIC_SIGNATURE": "Electronic Signature"
+  },
+  "HEADER": {
+    "QR_TITLE": "Smart Entry",
+    "LOGIN_TITLE": "Login",
+    "HOME_TITLE": "Home",
+    "CHANGE_PASSWORD": "Change Password",
+    "LOGOUT": "Logout"
+  },
+  "DASHBOARD": {
+    "COMPANY": "Company",
+    "DISPLAY_SHARES": "D-Shares",
+    "BID_PRICE": "B-Price",
+    "CURRENT_PRICE": "C-Price",
+    "ASK_PRICE": "A-Price",
+    "BID_SHARES": "Bids",
+    "CHANGE": "Change",
+    "TOTAL_SHARES": "T-Shares",
+    "REAL": "Real"
+  },
+  "USER_MARKET_INFO": {
+      "CASH": "Cash",
+      "PORTFOLIO": "Portfolio",
+      "ASSETS": "Assets",
+      "BUY_ORDERS_VALUE": "Buy Value",
+      "AVAILABLE_MARGIN": "A-Margin",
+      "LIABILITY": "Liability",
+      "CHART_TYPE": "chart",
+      "BUYING_POWER": "Buying Power"
+    }
+  }
