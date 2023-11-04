@@ -52,7 +52,7 @@ function UserMarketInfo() {
     return (
         <div className="row text-center mt-2 mt-md-0 text-gray info mb-2">
         <div className="col-md-8">
-        <div className="d-flex flex-wrap flex-row gap-2">
+        <div className="d-flex flex-wrap flex-row gap-2 justify-content-center justify-content-md-start">
             {
                 lineInfo.map((item,index)=>{
                     return      <div key={index}

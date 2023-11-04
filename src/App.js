@@ -18,24 +18,24 @@ function App() {
                 <div className="mb-4 col-md-4 col-sm-12">
                     <Card width={'100%'} height={'auto'} padding="p-2">
                         <div className="row text-center text-gray">
-                            <div className="col d-flex justify-content-start">
-                                <div className="d-flex flex-row gap-4  align-items-center justify-content-center">
+                            <div className="col-sm col-md-3 d-flex justify-content-start mb-2 mb-md-0">
+                                <div className="d-flex flex-row gap-4  align-items-center  justify-content-md-center">
                                     <div className="d-flex align-items-center gap-2"><i className="fa fa-bell navy"></i> <span>المؤشر</span></div>
                                     <div className="text-blue">14,000</div>
                                 </div>
                             </div>
-                            <div className="col d-flex gap-3 align-items-center justify-content-center">
+                            <div className="col-sm col-md-3 d-flex gap-3 align-items-center mb-2 mb-md-0 justify-content-md-center">
                                 <span className="text-success">1%</span>
                                 <i className="fa fa-arrow-circle-up text-success"></i>
 
                             </div>
-                            <div className="col d-flex justify-content-start">
-                                <div className="d-flex flex-row gap-4  align-items-center justify-content-center">
+                            <div className="col-sm col-md-3 d-flex justify-content-start mb-2 mb-md-0">
+                                <div className="d-flex flex-row gap-4  align-items-center justify-content-md-center">
                                     <div className="text-blue"><span>ريال</span></div>
                                     <div className="text-[61719F]">14,000</div>
                                 </div>
                             </div>
-                            <div className="col d-flex align-items-center justify-content-center">
+                            <div className="col-sm col-md-3 d-flex align-items-center mb-2 mb-md-0 justify-content-md-center">
                                 <div className="d-flex flex-row gap-3">
                                     <div> <span className="">حالة السوق</span></div>
                                     <div><i className="fa fa-circle text-success"></i></div>
